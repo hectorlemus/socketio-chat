@@ -1,0 +1,63 @@
+body, h1{
+    margin: 0px;
+}
+
+.nav, .chat-input, #messages{
+    position: fixed;
+    width: 100%;
+}
+
+.nav, .chat-input{
+    color: #ffffff;    
+    background-color: #0288d1;        
+}
+
+.nav{        
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23);
+    height: 40px;
+    padding: 10px;
+    margin: 0px;
+    top: 0px;
+}
+
+#messages{
+    bottom:40px; 
+    overflow-y: auto;
+    top: 60px;    
+}
+
+.chat-input{
+    bottom: 0px;
+    padding-left:8px;
+}
+
+#nickname, #text, .message{
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;    
+    border-color: #BDBDBD;    
+    margin: 4px;
+    padding: 4px;
+}
+
+#nickname, #text{
+    text-align: justify;    
+}
+
+.nick {
+    font-weight: bold;
+}
+
+.message {
+    margin: 10px;        
+}
+
+#enviar{    
+    background: transparent;
+    border: 0px;
+    color: #ffffff;
+    cursor: pointer;    
+    margin: 0px 10px;
+    vertical-align: middle;
+}

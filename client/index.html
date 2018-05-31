@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>CHAT</title>
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" type="text/css" href="chat-style.css"/>
+    </head>    
+    <body>
+        <div class="nav">
+            <h1>Bienvenido al chat</h1>
+        </div>        
+        <div id="messages"></div>
+
+        <form class="chat-input">
+            <input id="nickname" type="text" placeholder="@Nick" maxlength="10"/>            
+            <input id="text" type="text" placeholder="Mensaje..." style="display: none"/>
+            <input id="enviar" type="button" value="send" onclick="addMesage(this);" class="material-icons"/>
+        </form>
+    </body>
+</html>
