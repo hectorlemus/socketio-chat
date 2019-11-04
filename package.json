@@ -10,11 +10,11 @@
   "author": "hero",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.3",
+    "express": "^4.17.1",
     "materialize-css": "^0.98.2",
-    "socket.io": "^2.0.1"
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.19.4"
   }
 }

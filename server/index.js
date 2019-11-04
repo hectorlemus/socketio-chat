@@ -16,7 +16,7 @@ var messages = [
     {
         id:1,
         text: 'Bienvenido al chat',
-        nickname: 'Bot - Cuervos'
+        nickname: 'Admin'
     }
 ];
 
