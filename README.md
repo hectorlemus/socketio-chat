@@ -1,4 +1,4 @@
-# curso_socketio-chat
+# socketio-chat
 
 Webapp tipo chatroom con conexiones en tiempo real con JavaScript, Socket io y Node.js
 
